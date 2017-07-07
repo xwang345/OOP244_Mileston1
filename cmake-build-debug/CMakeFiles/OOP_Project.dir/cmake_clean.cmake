@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj"
-  "CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj"
-  "CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj"
-  "CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj"
   "CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj"
   "CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj"
   "OOP_Project.pdb"

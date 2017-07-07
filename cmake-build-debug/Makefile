@@ -122,114 +122,6 @@ OOP_Project/fast:
 	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/build
 .PHONY : OOP_Project/fast
 
-MS1/01-DefValTester.obj: MS1/01-DefValTester.cpp.obj
-
-.PHONY : MS1/01-DefValTester.obj
-
-# target to build an object file
-MS1/01-DefValTester.cpp.obj:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj
-.PHONY : MS1/01-DefValTester.cpp.obj
-
-MS1/01-DefValTester.i: MS1/01-DefValTester.cpp.i
-
-.PHONY : MS1/01-DefValTester.i
-
-# target to preprocess a source file
-MS1/01-DefValTester.cpp.i:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.i
-.PHONY : MS1/01-DefValTester.cpp.i
-
-MS1/01-DefValTester.s: MS1/01-DefValTester.cpp.s
-
-.PHONY : MS1/01-DefValTester.s
-
-# target to generate assembly for a file
-MS1/01-DefValTester.cpp.s:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.s
-.PHONY : MS1/01-DefValTester.cpp.s
-
-MS1/02-ConstructorTester.obj: MS1/02-ConstructorTester.cpp.obj
-
-.PHONY : MS1/02-ConstructorTester.obj
-
-# target to build an object file
-MS1/02-ConstructorTester.cpp.obj:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj
-.PHONY : MS1/02-ConstructorTester.cpp.obj
-
-MS1/02-ConstructorTester.i: MS1/02-ConstructorTester.cpp.i
-
-.PHONY : MS1/02-ConstructorTester.i
-
-# target to preprocess a source file
-MS1/02-ConstructorTester.cpp.i:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.i
-.PHONY : MS1/02-ConstructorTester.cpp.i
-
-MS1/02-ConstructorTester.s: MS1/02-ConstructorTester.cpp.s
-
-.PHONY : MS1/02-ConstructorTester.s
-
-# target to generate assembly for a file
-MS1/02-ConstructorTester.cpp.s:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.s
-.PHONY : MS1/02-ConstructorTester.cpp.s
-
-MS1/03-LogicalOperator.obj: MS1/03-LogicalOperator.cpp.obj
-
-.PHONY : MS1/03-LogicalOperator.obj
-
-# target to build an object file
-MS1/03-LogicalOperator.cpp.obj:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj
-.PHONY : MS1/03-LogicalOperator.cpp.obj
-
-MS1/03-LogicalOperator.i: MS1/03-LogicalOperator.cpp.i
-
-.PHONY : MS1/03-LogicalOperator.i
-
-# target to preprocess a source file
-MS1/03-LogicalOperator.cpp.i:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.i
-.PHONY : MS1/03-LogicalOperator.cpp.i
-
-MS1/03-LogicalOperator.s: MS1/03-LogicalOperator.cpp.s
-
-.PHONY : MS1/03-LogicalOperator.s
-
-# target to generate assembly for a file
-MS1/03-LogicalOperator.cpp.s:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.s
-.PHONY : MS1/03-LogicalOperator.cpp.s
-
-MS1/04-ErrorHandling.obj: MS1/04-ErrorHandling.cpp.obj
-
-.PHONY : MS1/04-ErrorHandling.obj
-
-# target to build an object file
-MS1/04-ErrorHandling.cpp.obj:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj
-.PHONY : MS1/04-ErrorHandling.cpp.obj
-
-MS1/04-ErrorHandling.i: MS1/04-ErrorHandling.cpp.i
-
-.PHONY : MS1/04-ErrorHandling.i
-
-# target to preprocess a source file
-MS1/04-ErrorHandling.cpp.i:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.i
-.PHONY : MS1/04-ErrorHandling.cpp.i
-
-MS1/04-ErrorHandling.s: MS1/04-ErrorHandling.cpp.s
-
-.PHONY : MS1/04-ErrorHandling.s
-
-# target to generate assembly for a file
-MS1/04-ErrorHandling.cpp.s:
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.s
-.PHONY : MS1/04-ErrorHandling.cpp.s
-
 MS1/244_ms1_tester.obj: MS1/244_ms1_tester.cpp.obj
 
 .PHONY : MS1/244_ms1_tester.obj
@@ -293,18 +185,6 @@ help:
 	@echo ... OOP_Project
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MS1/01-DefValTester.obj
-	@echo ... MS1/01-DefValTester.i
-	@echo ... MS1/01-DefValTester.s
-	@echo ... MS1/02-ConstructorTester.obj
-	@echo ... MS1/02-ConstructorTester.i
-	@echo ... MS1/02-ConstructorTester.s
-	@echo ... MS1/03-LogicalOperator.obj
-	@echo ... MS1/03-LogicalOperator.i
-	@echo ... MS1/03-LogicalOperator.s
-	@echo ... MS1/04-ErrorHandling.obj
-	@echo ... MS1/04-ErrorHandling.i
-	@echo ... MS1/04-ErrorHandling.s
 	@echo ... MS1/244_ms1_tester.obj
 	@echo ... MS1/244_ms1_tester.i
 	@echo ... MS1/244_ms1_tester.s

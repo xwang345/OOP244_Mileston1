@@ -82,18 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/zhi/OOP-Project/MS1/01-DefValTester.cpp">
-			<Option target="OOP_Project"/>
-		</Unit>
-		<Unit filename="C:/Users/zhi/OOP-Project/MS1/02-ConstructorTester.cpp">
-			<Option target="OOP_Project"/>
-		</Unit>
-		<Unit filename="C:/Users/zhi/OOP-Project/MS1/03-LogicalOperator.cpp">
-			<Option target="OOP_Project"/>
-		</Unit>
-		<Unit filename="C:/Users/zhi/OOP-Project/MS1/04-ErrorHandling.cpp">
-			<Option target="OOP_Project"/>
-		</Unit>
 		<Unit filename="C:/Users/zhi/OOP-Project/MS1/244_ms1_tester.cpp">
 			<Option target="OOP_Project"/>
 		</Unit>

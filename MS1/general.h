@@ -2,7 +2,7 @@
 #define SICT_GENERAL_H__
 
 
-class sict{
+namespace sict{
     #define TAX 0.13
     #define MAX_SKU_LEN 7
     #define DISPLAY_LINES 10

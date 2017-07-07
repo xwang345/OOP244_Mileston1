@@ -4,10 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/zhi/OOP-Project/MS1/01-DefValTester.cpp" "C:/Users/zhi/OOP-Project/cmake-build-debug/CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj"
-  "C:/Users/zhi/OOP-Project/MS1/02-ConstructorTester.cpp" "C:/Users/zhi/OOP-Project/cmake-build-debug/CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj"
-  "C:/Users/zhi/OOP-Project/MS1/03-LogicalOperator.cpp" "C:/Users/zhi/OOP-Project/cmake-build-debug/CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj"
-  "C:/Users/zhi/OOP-Project/MS1/04-ErrorHandling.cpp" "C:/Users/zhi/OOP-Project/cmake-build-debug/CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj"
   "C:/Users/zhi/OOP-Project/MS1/244_ms1_tester.cpp" "C:/Users/zhi/OOP-Project/cmake-build-debug/CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj"
   "C:/Users/zhi/OOP-Project/MS1/Date.cpp" "C:/Users/zhi/OOP-Project/cmake-build-debug/CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj"
   )

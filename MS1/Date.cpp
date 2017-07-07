@@ -80,17 +80,19 @@ namespace sict{
 
     std::istream& Date::read(std::istream & ist) {
          char dataA;
-         ist >> year_ >> dataA >> mon_ >> dataA >> day_ >> dataA;
+        ist.clear();
+         ist >> year_ >> dataA >> mon_ >> dataA >> day_ ;
+        if (ist.fail()){
+           errCode(CIN_FAILED);
+        }else if (MIN_YEAR > year_ || year_ > MAX_YEAR){
+           errCode(YEAR_ERROR);
+        }else if (1 > mon_ || mon_ > 12){
+           errCode(MON_ERROR);
+        }else if (day_ > mdays()) {
+           errCode(DAY_ERROR);
+        }
+        ist.clear();
 
-       if (ist.fail()){
-          errCode(CIN_FAILED);
-       }else if (MIN_YEAR > year_ || year_ > MAX_YEAR){
-          errCode(YEAR_ERROR);
-       }else if (1 > mon_ || mon_ > 12){
-          errCode(MON_ERROR);
-       }else if (day_ > mdays()) {
-          errCode(DAY_ERROR);
-       }
        return ist;
     }
 

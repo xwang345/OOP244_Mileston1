@@ -56,105 +56,9 @@ include CMakeFiles/OOP_Project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OOP_Project.dir/flags.make
 
-CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj: CMakeFiles/OOP_Project.dir/flags.make
-CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj: ../MS1/01-DefValTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_Project.dir\MS1\01-DefValTester.cpp.obj -c C:\Users\zhi\OOP-Project\MS1\01-DefValTester.cpp
-
-CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zhi\OOP-Project\MS1\01-DefValTester.cpp > CMakeFiles\OOP_Project.dir\MS1\01-DefValTester.cpp.i
-
-CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zhi\OOP-Project\MS1\01-DefValTester.cpp -o CMakeFiles\OOP_Project.dir\MS1\01-DefValTester.cpp.s
-
-CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj.requires:
-
-.PHONY : CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj.requires
-
-CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj.provides: CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj.provides.build
-.PHONY : CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj.provides
-
-CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj.provides.build: CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj
-
-
-CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj: CMakeFiles/OOP_Project.dir/flags.make
-CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj: ../MS1/02-ConstructorTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_Project.dir\MS1\02-ConstructorTester.cpp.obj -c C:\Users\zhi\OOP-Project\MS1\02-ConstructorTester.cpp
-
-CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zhi\OOP-Project\MS1\02-ConstructorTester.cpp > CMakeFiles\OOP_Project.dir\MS1\02-ConstructorTester.cpp.i
-
-CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zhi\OOP-Project\MS1\02-ConstructorTester.cpp -o CMakeFiles\OOP_Project.dir\MS1\02-ConstructorTester.cpp.s
-
-CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj.requires:
-
-.PHONY : CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj.requires
-
-CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj.provides: CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj.provides.build
-.PHONY : CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj.provides
-
-CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj.provides.build: CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj
-
-
-CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj: CMakeFiles/OOP_Project.dir/flags.make
-CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj: ../MS1/03-LogicalOperator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_Project.dir\MS1\03-LogicalOperator.cpp.obj -c C:\Users\zhi\OOP-Project\MS1\03-LogicalOperator.cpp
-
-CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zhi\OOP-Project\MS1\03-LogicalOperator.cpp > CMakeFiles\OOP_Project.dir\MS1\03-LogicalOperator.cpp.i
-
-CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zhi\OOP-Project\MS1\03-LogicalOperator.cpp -o CMakeFiles\OOP_Project.dir\MS1\03-LogicalOperator.cpp.s
-
-CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj.requires:
-
-.PHONY : CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj.requires
-
-CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj.provides: CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj.provides.build
-.PHONY : CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj.provides
-
-CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj.provides.build: CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj
-
-
-CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj: CMakeFiles/OOP_Project.dir/flags.make
-CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj: ../MS1/04-ErrorHandling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_Project.dir\MS1\04-ErrorHandling.cpp.obj -c C:\Users\zhi\OOP-Project\MS1\04-ErrorHandling.cpp
-
-CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zhi\OOP-Project\MS1\04-ErrorHandling.cpp > CMakeFiles\OOP_Project.dir\MS1\04-ErrorHandling.cpp.i
-
-CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zhi\OOP-Project\MS1\04-ErrorHandling.cpp -o CMakeFiles\OOP_Project.dir\MS1\04-ErrorHandling.cpp.s
-
-CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj.requires:
-
-.PHONY : CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj.requires
-
-CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj.provides: CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\OOP_Project.dir\build.make CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj.provides.build
-.PHONY : CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj.provides
-
-CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj.provides.build: CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj
-
-
 CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj: CMakeFiles/OOP_Project.dir/flags.make
 CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj: ../MS1/244_ms1_tester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj"
 	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_Project.dir\MS1\244_ms1_tester.cpp.obj -c C:\Users\zhi\OOP-Project\MS1\244_ms1_tester.cpp
 
 CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.i: cmake_force
@@ -178,7 +82,7 @@ CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj.provides.build: CMakeFiles
 
 CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj: CMakeFiles/OOP_Project.dir/flags.make
 CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj: ../MS1/Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj"
 	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_Project.dir\MS1\Date.cpp.obj -c C:\Users\zhi\OOP-Project\MS1\Date.cpp
 
 CMakeFiles/OOP_Project.dir/MS1/Date.cpp.i: cmake_force
@@ -202,27 +106,19 @@ CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj.provides.build: CMakeFiles/OOP_Proje
 
 # Object files for target OOP_Project
 OOP_Project_OBJECTS = \
-"CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj" \
-"CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj" \
-"CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj" \
-"CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj" \
 "CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj" \
 "CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj"
 
 # External object files for target OOP_Project
 OOP_Project_EXTERNAL_OBJECTS =
 
-OOP_Project.exe: CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj
-OOP_Project.exe: CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj
-OOP_Project.exe: CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj
-OOP_Project.exe: CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj
 OOP_Project.exe: CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj
 OOP_Project.exe: CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj
 OOP_Project.exe: CMakeFiles/OOP_Project.dir/build.make
 OOP_Project.exe: CMakeFiles/OOP_Project.dir/linklibs.rsp
 OOP_Project.exe: CMakeFiles/OOP_Project.dir/objects1.rsp
 OOP_Project.exe: CMakeFiles/OOP_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable OOP_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zhi\OOP-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OOP_Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OOP_Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -230,10 +126,6 @@ CMakeFiles/OOP_Project.dir/build: OOP_Project.exe
 
 .PHONY : CMakeFiles/OOP_Project.dir/build
 
-CMakeFiles/OOP_Project.dir/requires: CMakeFiles/OOP_Project.dir/MS1/01-DefValTester.cpp.obj.requires
-CMakeFiles/OOP_Project.dir/requires: CMakeFiles/OOP_Project.dir/MS1/02-ConstructorTester.cpp.obj.requires
-CMakeFiles/OOP_Project.dir/requires: CMakeFiles/OOP_Project.dir/MS1/03-LogicalOperator.cpp.obj.requires
-CMakeFiles/OOP_Project.dir/requires: CMakeFiles/OOP_Project.dir/MS1/04-ErrorHandling.cpp.obj.requires
 CMakeFiles/OOP_Project.dir/requires: CMakeFiles/OOP_Project.dir/MS1/244_ms1_tester.cpp.obj.requires
 CMakeFiles/OOP_Project.dir/requires: CMakeFiles/OOP_Project.dir/MS1/Date.cpp.obj.requires
 

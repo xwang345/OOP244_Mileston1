@@ -34,6 +34,7 @@ namespace sict{
        // member methods
        int value()const;
        void errCode(int errorCode);
+
    public:
        // constructors
        Date();
@@ -52,6 +53,8 @@ namespace sict{
        int errCode()const;
        //Returns the m_readErrorCode value.
        bool bad()const;
+
+       void dateOnly(bool value);
        // istream  and ostream read and write methods
        std::istream& read(std::istream&);
        std::ostream& write(std::ostream&)const;
