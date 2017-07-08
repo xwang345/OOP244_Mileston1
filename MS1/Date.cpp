@@ -10,12 +10,13 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name               Date                 Reason
+// Name   Xiaochen Wang          Date     7 July 2017     Reason
 /////////////////////////////////////////////////////////////////
 #include <iostream>
 #include <cstring>
 #include "Date.h"
 #include "general.h"
+
 namespace sict{
     Date::Date() {
        year_ = 0;
@@ -75,7 +76,11 @@ namespace sict{
    }
 
     bool Date::bad() const {
-       return readErrorCode_ != NO_ERROR;
+        bool TF = false;
+        if (readErrorCode_ != 0) {
+            TF = true;
+        }
+        return TF;
     }
 
     std::istream& Date::read(std::istream & ist) {
@@ -101,9 +106,19 @@ namespace sict{
        ost << year_ << "/";
        if (mon_ <= 10)
        {
-          ost << "0" << mon_;
-       }else{
-          ost << mon_;
+          ost << "0" << mon_ << "/";
+           if (day_ <= 10) {
+               ost << "0" << day_;
+           } else {
+               ost << day_;
+           }
+       }else {
+           ost << mon_ << "/";
+           if (day_ <= 10) {
+               ost << "0" << day_;
+           } else {
+               ost << day_;
+           }
        }
        return ost;
     }
